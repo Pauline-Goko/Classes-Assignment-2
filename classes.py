@@ -147,7 +147,7 @@ moroccan_recipe = MoroccanRecipe(
   "Fried Chicken",
   ["Chicken", "Onions", "Spices", "Olives"],
   "2 hours",
-  "Simmering",
+  "Frying",
   "Calories: 400, Fat: 15g, Protein: 30g",
  
 )
@@ -159,7 +159,7 @@ ethiopian_recipe = EthiopianRecipe(
   "Injera",
   ["Chicken", "Onions", "Spice"],
   "3 hours",
-  "Stewing",
+  "Baking",
   "Calories: 450, Fat: 20g, Protein: 25g",
 
 )

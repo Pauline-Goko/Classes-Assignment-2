@@ -53,13 +53,7 @@ class Story {
   }
   
   // Created an instance of Story
-  const story1 = new Story(
-    "Mwangi, the brave boy",
-    "A boy that went searching for his beloved dog in the deadly forest",
-    "20 pages",
-    "Bravery and courage",
-    "5-10 years"
-  );
+  const story1 = new Story( "Mwangi, the brave boy", "A boy that went searching for his beloved dog in the deadly forest", "20 pages", "Bravery and courage", "5-10 years");
   
   // Created an instance of StoryTeller
   const storyteller1 = new StoryTeller("Kamau Maina", "Kikuyu", "5-10 years");
@@ -74,16 +68,10 @@ class Story {
   const translated_story1 = translator1.translate(story1);
   
   // Output the translated story
-  console.log(`Translated story: ${translated_story.title}: ${translated_story.content}`);
+  console.log(`Translated story: ${translated_story1.title}: ${translated_story.content}`);
   
   // Created an instance of Story2
-  const story2 = new Story(
-    "Jamba Nene",
-    "a boy that met an ogre in the deadly forest",
-    "40 pages",
-    "obedience",
-    "11-15 years"
-  );
+  const story2 = new Story( "Jamba Nene", "a boy that met an ogre in the deadly forest", "40 pages", "obedience", "11-15 years" );
   
   // Create an instance of StoryTeller
   const storyteller2 = new StoryTeller("Wambui Kamau", "Kikuyu", "11-15 years");
